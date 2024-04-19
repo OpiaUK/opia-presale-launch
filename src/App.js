@@ -1,10 +1,16 @@
-import "./styles.css";
+import { Button } from "react-bootstrap/";
 
-export default function App() {
+function App() {
   return (
-    <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+    <div className="d-grid gap-2">
+      <Button variant="primary" size="lg">
+        Block level n
+      </Button>
+      <Button variant="secondary" size="lg">
+        Block level button
+      </Button>
     </div>
   );
 }
+
+export default App;
